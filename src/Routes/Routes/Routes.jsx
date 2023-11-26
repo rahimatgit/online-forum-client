@@ -7,6 +7,8 @@ import Home from "../Home/Home/Home";
 import JoinUs from "../JoinUs/JoinUs/JoinUs";
 import Membership from "../Membership/Membership/Membership";
 import Error from "../Error/Error";
+import Login from "../JoinUs/Login/Login";
+import Register from "../JoinUs/Register/Register";
 
 export  const router = createBrowserRouter([
     {
@@ -21,6 +23,14 @@ export  const router = createBrowserRouter([
         {
             path: "/joinUs",
             element: <JoinUs></JoinUs>
+        },
+        {
+            path: "/login",
+            element: <Login></Login>
+        },
+        {
+            path: "/register",
+            element: <Register></Register>
         },
         {
             path: "/membership",
