@@ -18,7 +18,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Membership', 'Join Us'];
+
 
 export default function Navbar(props) {
     const { window } = props;
@@ -31,17 +31,21 @@ export default function Navbar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
+
             </Typography>
             <Divider />
             <List>
-                {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
-                            <ListItemText primary={item} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
+                <NavLink to="/">
+                    <Button variant='outlined' sx={{ fontSize: "15px", fontWeight: "600", color: "green", marginBottom: "16px", width:"80%", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Home</Button>
+                </NavLink>
+                <br />
+                <NavLink to="/membership">
+                    <Button variant='outlined' sx={{ fontSize: "15px", fontWeight: "600", color: "green", marginBottom: "16px", width:"80%", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Membership</Button>
+                </NavLink>
+                <br />
+                <NavLink to="/joinUs">
+                    <Button variant='outlined' sx={{ fontSize: "15px", fontWeight: "600", color: "green", marginBottom: "16px", width:"80%", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
+                </NavLink>
             </List>
         </Box>
     );
@@ -51,34 +55,35 @@ export default function Navbar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
-            <AppBar component="nav" sx={{backgroundColor:"Background"}}>
+            <AppBar component="nav" sx={{ backgroundColor: "Background" }}>
                 <Container maxWidth="lg">
                     <Toolbar>
                         <IconButton
-                            color="inherit"
+                            color=""
                             aria-label="open drawer"
                             edge="start"
                             onClick={handleDrawerToggle}
                             sx={{ mr: 2, display: { sm: 'none' } }}
                         >
                             <MenuIcon />
+                            <img style={{ width: "200px" }} src="https://i.ibb.co/SPD8DBh/thought-scape.png" alt="" />
                         </IconButton>
                         <Typography
                             variant="h6"
                             component="div"
-                            sx={{ flexGrow: 1, color:"black", display: { xs: 'none', sm: 'block' } }}
+                            sx={{ flexGrow: 1, color: "black", display: { xs: 'none', sm: 'block' } }}
                         >
-                            <img style={{width:"200px"}} src="https://i.ibb.co/SPD8DBh/thought-scape.png" alt="" />
+                            <img style={{ width: "200px" }} src="https://i.ibb.co/SPD8DBh/thought-scape.png" alt="" />
                         </Typography>
                         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             <NavLink to="/">
-                                <Button variant='outlined' sx={{fontSize: "18px", fontWeight: "600", color:"green", marginRight:"5px"}}>Home</Button>
+                                <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Home</Button>
                             </NavLink>
                             <NavLink to="/membership">
-                                <Button variant='outlined' sx={{fontSize: "18px", fontWeight: "600", color:"green", marginRight:"5px"}}>Membership</Button>
+                                <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Membership</Button>
                             </NavLink>
                             <NavLink to="/joinUs">
-                                <Button variant='outlined' sx={{fontSize: "18px", fontWeight: "600", color:"green", marginRight:"5px"}}>Join Us</Button>
+                                <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
                             </NavLink>
                         </Box>
                     </Toolbar>
