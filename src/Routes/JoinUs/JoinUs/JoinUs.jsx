@@ -1,9 +1,10 @@
+import Register from "../Register/Register";
 
 
 const JoinUs = () => {
     return (
         <div>
-            join us
+            <Register></Register>
         </div>
     );
 };
