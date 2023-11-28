@@ -59,9 +59,9 @@ const Tags = () => {
                 </Item>
               ))} */}
               {
-                tagsArray.map((tag, idx) => (<Item
-                    
+                tagsArray.map((tag, idx) => (<Item                   
                     key={idx}
+                    sx={{color:"green"}}
                 >
                     {tag}
                 </Item>))
