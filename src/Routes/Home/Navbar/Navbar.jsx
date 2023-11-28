@@ -12,6 +12,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Container } from '@mui/material';
 import { NavLink } from 'react-router-dom';
+import { AuthContext } from '../../../Provider/AuthProvider';
+import { useContext } from "react";
+// import Profile from '../../../Components/Profile/Profile';
+
+
 
 
 const drawerWidth = 240;
@@ -20,6 +25,7 @@ const drawerWidth = 240;
 export default function Navbar(props) {
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
+    const {user} = useContext(AuthContext);
 
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
@@ -72,6 +78,7 @@ export default function Navbar(props) {
                         >
                             <img style={{ width: "200px" }} src="https://i.ibb.co/SPD8DBh/thought-scape.png" alt="" />
                         </Typography>
+                        
                         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             <NavLink to="/">
                                 <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Home</Button>
@@ -82,8 +89,10 @@ export default function Navbar(props) {
                             <NavLink to="/joinUs">
                                 <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
                             </NavLink>
+                            {/* <Profile></Profile> */}
                         </Box>
                     </Toolbar>
+                        
                 </Container>
 
             </AppBar>
