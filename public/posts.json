@@ -1,0 +1,369 @@
+[
+    {
+      "post_title": "The Future of Artificial Intelligence",
+      "post_description": "Discussing the potential impact of AI on society and industries.",
+      "author_image": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8fDB8fHww",
+      "author_name": "John Doe",
+      "tag": "#TechnologyTalk",
+      "post_time": "2023-11-27T14:45:00",
+      "original_post": "In recent years, artificial intelligence has made significant strides...",
+      "author_email": "john.doe@example.com",
+      "role": "user",
+      "up_vote": 15,
+      "down_vote": 3,
+      "comments": [
+        {"author": "Alice Johnson", "comment": "Exciting times ahead!"},
+        {"author": "Bob Smith", "comment": "I'm concerned about job displacement."},
+      ],
+      "share": 7,
+      "post_id": "tt8742"
+    },
+    {
+      "post_title": "Exploring the Cosmos",
+      "post_description": "A journey through the wonders of the universe and our place in it.",
+      "author_image": "https://images.unsplash.com/photo-1581382575275-97901c2635b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fHww",
+      "author_name": "Jane Smith",
+      "tag": "#ScienceDiscussion",
+      "post_time": "2023-11-28T09:15:00",
+      "original_post": "As we gaze into the night sky, we are reminded of the vastness of the cosmos...",
+      "author_email": "jane.smith@example.com",
+      "role": "user",
+      "up_vote": 25,
+      "down_vote": 1,
+      "comments": [
+        {"author": "Charlie Brown", "comment": "I love stargazing!"},
+        {"author": "Eva Williams", "comment": "Are we alone in the universe?"},
+      ],
+      "share": 12,
+      "post_id": "sd3256"
+    },
+    {
+        "post_title": "Revolutionizing Energy Storage",
+        "post_description": "Exploring innovative technologies for efficient energy storage solutions.",
+        "author_image": "https://images.unsplash.com/photo-1611880147493-7542bdb0f024?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHlvdW5nJTIwd29tYW58ZW58MHx8MHx8fDA%3D",
+        "author_name": "Emma Jones",
+        "tag": "#InnovationIdeas",
+        "post_time": "2023-11-29T11:00:00",
+        "original_post": "In the quest for sustainable energy, new breakthroughs in energy storage are crucial...",
+        "author_email": "emma.jones@example.com",
+        "role": "user",
+        "up_vote": 18,
+        "down_vote": 2,
+        "comments": [
+          {"author": "David Miller", "comment": "I'm curious about the environmental impact."},
+          {"author": "Sophie White", "comment": "Any recent advancements in this field?"}
+        ],
+        "share": 9,
+        "post_id": "ii5421"
+      },
+      {
+        "post_title": "Unlocking Creativity in Everyday Life",
+        "post_description": "Discussing practical tips for fostering creativity in daily activities.",
+        "author_image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fHww",
+        "author_name": "Mark Roberts",
+        "tag": "#CreativeThinking",
+        "post_time": "2023-11-30T15:30:00",
+        "original_post": "Creativity is not limited to artists; it can be cultivated in various aspects of life...",
+        "author_email": "mark.roberts@example.com",
+        "role": "user",
+        "up_vote": 12,
+        "down_vote": 0,
+        "comments": [
+          {"author": "Lily Johnson", "comment": "I struggle with creative blocks. Any advice?"}
+        ],
+        "share": 5,
+        "post_id": "ct7123"
+      },
+      {
+        "post_title": "The Future of Web Development",
+        "post_description": "Exploring emerging trends and technologies in the world of web development.",
+        "author_image": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8fDB8fHww",
+        "author_name": "Alex Smith",
+        "tag": "#ProgrammingPro",
+        "post_time": "2023-12-01T13:45:00",
+        "original_post": "As technology evolves, so does the landscape of web development. Let's dive into the future...",
+        "author_email": "alex.smith@example.com",
+        "role": "user",
+        "up_vote": 30,
+        "down_vote": 5,
+        "comments": [
+          {"author": "Sophia Davis", "comment": "I'm curious about the role of AI in web development."},
+          {"author": "Michael Brown", "comment": "What languages do you think will dominate in the future?"}
+        ],
+        "share": 15,
+        "post_id": "pp4523"
+      },
+      {
+        "post_title": "Mindfulness in the Digital Age",
+        "post_description": "Discussing the importance of mindfulness practices in the fast-paced digital world.",
+        "author_image": "https://images.unsplash.com/photo-1598812471823-514e378adf08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHlvdW5nJTIwd29tYW58ZW58MHx8MHx8fDA%3D",
+        "author_name": "Sara Anderson",
+        "tag": "#Mindfulness",
+        "post_time": "2023-12-02T10:15:00",
+        "original_post": "In the era of constant connectivity, finding moments of mindfulness is crucial for well-being...",
+        "author_email": "sara.anderson@example.com",
+        "role": "user",
+        "up_vote": 22,
+        "down_vote": 3,
+        "comments": [
+          {"author": "Ethan Miller", "comment": "How do you incorporate mindfulness into your daily routine?"}
+        ],
+        "share": 8,
+        "post_id": "md7890"
+      },
+      {
+        "post_title": "The Impact of Sustainable Practices in Business",
+        "post_description": "Discussing the role of sustainability in modern business strategies.",
+        "author_image": "https://images.unsplash.com/photo-1630939687530-241d630735df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHlvdW5nJTIwd29tYW58ZW58MHx8MHx8fDA%3D",
+        "author_name": "Natalie Green",
+        "tag": "#BusinessStrategy",
+        "post_time": "2023-12-03T09:30:00",
+        "original_post": "In a world focused on sustainability, businesses are rethinking their strategies to make a positive impact...",
+        "author_email": "natalie.green@example.com",
+        "role": "user",
+        "up_vote": 25,
+        "down_vote": 4,
+        "comments": [
+          {"author": "Daniel Carter", "comment": "How can small businesses implement sustainable practices?"}
+        ],
+        "share": 10,
+        "post_id": "bs6321"
+      },
+      {
+        "post_title": "Culinary Adventures Around the World",
+        "post_description": "Sharing personal experiences and favorite dishes from global travels.",
+        "author_image": "https://images.unsplash.com/photo-1583432144811-0d1f4df02a02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHlvdW5nJTIwd29tYW58ZW58MHx8MHx8fDA%3D",
+        "author_name": "Mia Jackson",
+        "tag": "#FoodieFiesta",
+        "post_time": "2023-12-04T12:00:00",
+        "original_post": "Embarking on a culinary journey is not just about food; it's about experiencing cultures through taste...",
+        "author_email": "mia.jackson@example.com",
+        "role": "user",
+        "up_vote": 18,
+        "down_vote": 1,
+        "comments": [
+          {"author": "Oliver White", "comment": "What's the most memorable dish you've tried?"}
+        ],
+        "share": 7,
+        "post_id": "ff9876"
+      },
+      {
+        "post_title": "Empowering Environmental Activism",
+        "post_description": "Discussing actionable steps to make a positive impact on the environment.",
+        "author_image": "avatars/ryan_clark.jpg",
+        "author_name": "https://images.unsplash.com/photo-1590086782957-93c06ef21604?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "tag": "#EnvironmentalImpact",
+        "post_time": "2023-12-05T15:45:00",
+        "original_post": "Our planet needs us now more than ever. Let's brainstorm and share effective ways to contribute to environmental preservation...",
+        "author_email": "ryan.clark@example.com",
+        "role": "user",
+        "up_vote": 28,
+        "down_vote": 2,
+        "comments": [
+          {"author": "Ava Turner", "comment": "I'm interested in sustainable practices for everyday life."},
+          {"author": "Elijah Martinez", "comment": "Are there any eco-friendly businesses you recommend?"}
+        ],
+        "share": 12,
+        "post_id": "ei8743"
+      },
+      {
+        "post_title": "Journey to a Healthier Lifestyle",
+        "post_description": "Sharing personal fitness journeys and tips for a healthier lifestyle.",
+        "author_image": "https://images.unsplash.com/photo-1536351177167-7275d582546e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8eW91bmclMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Lisa Harris",
+        "tag": "#FitnessJourney",
+        "post_time": "2023-12-06T08:30:00",
+        "original_post": "Embarking on a fitness journey is about more than just physical health. Let's motivate each other and share success stories...",
+        "author_email": "lisa.harris@example.com",
+        "role": "user",
+        "up_vote": 20,
+        "down_vote": 3,
+        "comments": [
+          {"author": "Jake Thompson", "comment": "How do you stay motivated on tough days?"}
+        ],
+        "share": 9,
+        "post_id": "fj2365"
+      },
+      {
+        "post_title": "Mindful Parenting: Nurturing Young Minds",
+        "post_description": "Sharing tips and experiences on incorporating mindfulness into parenting.",
+        "author_image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eW91bmclMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Emma Carter",
+        "tag": "#ParentingTips",
+        "post_time": "2023-12-07T11:15:00",
+        "original_post": "Parenting in the digital age comes with its challenges. Let's discuss mindful approaches to raising happy and healthy children...",
+        "author_email": "emma.carter@example.com",
+        "role": "user",
+        "up_vote": 15,
+        "down_vote": 1,
+        "comments": [
+          {"author": "David Anderson", "comment": "Any recommended books on mindful parenting?"}
+        ],
+        "share": 5,
+        "post_id": "pt5321"
+      },
+      {
+        "post_title": "Discovering New Horizons: Music Exploration",
+        "post_description": "Exploring diverse genres and sharing musical discoveries with fellow enthusiasts.",
+        "author_image": "https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Luke Miller",
+        "tag": "#MusicMania",
+        "post_time": "2023-12-08T14:00:00",
+        "original_post": "Music is a universal language. Let's share our favorite tracks, artists, and dive into the world of musical exploration...",
+        "author_email": "luke.miller@example.com",
+        "role": "user",
+        "up_vote": 22,
+        "down_vote": 2,
+        "comments": [
+          {"author": "Sophie Turner", "comment": "I love discovering indie artists. Any recommendations?"}
+        ],
+        "share": 10,
+        "post_id": "mm7890"
+      },
+      {
+        "post_title": "The Art of DIY Home Decor",
+        "post_description": "Sharing creative DIY projects for enhancing your living space.",
+        "author_image": "https://images.unsplash.com/photo-1529470839332-78ad660a6a82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eW91bmclMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Olivia Brown",
+        "tag": "#DIYProjects",
+        "post_time": "2023-12-09T10:45:00",
+        "original_post": "Transforming your home into a personalized sanctuary through DIY projects. Let's exchange ideas and inspiration...",
+        "author_email": "olivia.brown@example.com",
+        "role": "user",
+        "up_vote": 18,
+        "down_vote": 0,
+        "comments": [
+          {"author": "William Taylor", "comment": "I'm looking for easy DIY projects for beginners."},
+          {"author": "Sophia Evans", "comment": "What's your favorite DIY project you've done so far?"}
+        ],
+        "share": 8,
+        "post_id": "diy4321"
+      },
+      {
+        "post_title": "Unveiling the Secrets of Book Club Success",
+        "post_description": "Tips and recommendations for hosting a thriving book club.",
+        "author_image": "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Nathan Wilson",
+        "tag": "#BookClub",
+        "post_time": "2023-12-10T13:30:00",
+        "original_post": "Running a successful book club involves more than just selecting books. Let's share strategies for fostering engaging discussions...",
+        "author_email": "nathan.wilson@example.com",
+        "role": "user",
+        "up_vote": 25,
+        "down_vote": 3,
+        "comments": [
+          {"author": "Ella Cooper", "comment": "Any book recommendations for the next club meeting?"}
+        ],
+        "share": 12,
+        "post_id": "bc9876"
+      },
+      {
+        "post_title": "Cinematic Delights: A Movie Buff's Paradise",
+        "post_description": "Discussing the latest movie releases, hidden gems, and all things cinema.",
+        "author_image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Michael Jenkins",
+        "tag": "#MovieNight",
+        "post_time": "2023-12-11T20:00:00",
+        "original_post": "From blockbusters to indie films, let's share our favorite cinematic experiences and recommendations for the next movie night...",
+        "author_email": "michael.jenkins@example.com",
+        "role": "user",
+        "up_vote": 30,
+        "down_vote": 5,
+        "comments": [
+          {"author": "Sophie Turner", "comment": "I love classic films. Any recommendations from the golden era?"}
+        ],
+        "share": 15,
+        "post_id": "mn7654"
+      },
+      {
+        "post_title": "Navigating the Business Jungle: Career Insights",
+        "post_description": "Sharing career tips, success stories, and advice for professional growth.",
+        "author_image": "https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Ryan Morris",
+        "tag": "#CareerInsights",
+        "post_time": "2023-12-12T12:30:00",
+        "original_post": "Whether you're climbing the corporate ladder or exploring entrepreneurship, let's exchange insights for a successful career journey...",
+        "author_email": "ryan.morris@example.com",
+        "role": "user",
+        "up_vote": 22,
+        "down_vote": 2,
+        "comments": [
+          {"author": "Emma Turner", "comment": "How do you balance work and personal life effectively?"}
+        ],
+        "share": 10,
+        "post_id": "ci2345"
+      },
+      {
+        "post_title": "The World Through a Lens: Travel Photography Adventures",
+        "post_description": "Sharing breathtaking travel stories and tips for capturing the perfect shot.",
+        "author_image": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW91bmclMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Sophie Adams",
+        "tag": "#TravelAdventures",
+        "post_time": "2023-12-13T15:45:00",
+        "original_post": "Embarking on a visual journey around the world. Let's share travel stories and photography tips to inspire wanderlust...",
+        "author_email": "sophie.adams@example.com",
+        "role": "user",
+        "up_vote": 28,
+        "down_vote": 3,
+        "comments": [
+          {"author": "Charlie Turner", "comment": "What's your favorite destination you've photographed?"}
+        ],
+        "share": 12,
+        "post_id": "ta7890"
+      },
+      {
+        "post_title": "The Rhythm of Life: Music and Wellbeing",
+        "post_description": "Exploring the profound impact of music on mental health and overall wellbeing.",
+        "author_image": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Daniel Carter",
+        "tag": "#MusicMania",
+        "post_time": "2023-12-14T11:30:00",
+        "original_post": "Music has the power to heal. Let's discuss personal experiences and recommendations for music that soothes the soul...",
+        "author_email": "daniel.carter@example.com",
+        "role": "user",
+        "up_vote": 20,
+        "down_vote": 1,
+        "comments": [
+          {"author": "Nina Rodriguez", "comment": "Do you have a go-to playlist for relaxation?"}
+        ],
+        "share": 9,
+        "post_id": "mm5678"
+      },
+      {
+        "post_title": "Innovative Solutions for Sustainable Living",
+        "post_description": "Discussing groundbreaking ideas for a more sustainable and eco-friendly lifestyle.",
+        "author_image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Lucas Miller",
+        "tag": "#EnvironmentalImpact",
+        "post_time": "2023-12-15T14:15:00",
+        "original_post": "Let's brainstorm and share innovative ways to lead a sustainable life, from eco-friendly products to energy-saving tips...",
+        "author_email": "lucas.miller@example.com",
+        "role": "user",
+        "up_vote": 25,
+        "down_vote": 2,
+        "comments": [
+          {"author": "Eva Turner", "comment": "How can we encourage others to adopt sustainable practices?"}
+        ],
+        "share": 11,
+        "post_id": "ei3210"
+      },
+      {
+        "post_title": "The Power of Words: Impactful Book Recommendations",
+        "post_description": "Sharing books that left a lasting impact and sparked meaningful conversations.",
+        "author_image": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91bmclMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D",
+        "author_name": "Oliver Wright",
+        "tag": "#BookClub",
+        "post_time": "2023-12-16T09:45:00",
+        "original_post": "Books have the power to change lives. Let's recommend and discuss literature that has made a lasting impression...",
+        "author_email": "oliver.wright@example.com",
+        "role": "user",
+        "up_vote": 20,
+        "down_vote": 3,
+        "comments": [
+          {"author": "Isabella White", "comment": "Any recommendations for thought-provoking non-fiction?"}
+        ],
+        "share": 8,
+        "post_id": "bc4567"
+      }
+  ]
+  
