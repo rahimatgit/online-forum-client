@@ -14,6 +14,7 @@ import { Container } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../Provider/AuthProvider';
 import { useContext } from "react";
+import Profile from '../../../Components/Profile/Profile';
 // import Profile from '../../../Components/Profile/Profile';
 
 
@@ -49,6 +50,7 @@ export default function Navbar(props) {
                 <NavLink to="/joinUs">
                     <Button variant='outlined' sx={{ fontSize: "15px", fontWeight: "600", color: "green", marginBottom: "16px", width:"80%", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
                 </NavLink>
+                <br />
             </List>
         </Box>
     );
@@ -89,8 +91,8 @@ export default function Navbar(props) {
                             <NavLink to="/joinUs">
                                 <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
                             </NavLink>
-                            {/* <Profile></Profile> */}
                         </Box>
+                        {user ? <Profile></Profile> : ""}
                     </Toolbar>
                         
                 </Container>
