@@ -9,6 +9,7 @@ import Membership from "../Membership/Membership/Membership";
 import Error from "../Error/Error";
 import Login from "../JoinUs/Login/Login";
 import Register from "../JoinUs/Register/Register";
+import PostDetails from "../Home/Posts/PostDetails";
 
 export  const router = createBrowserRouter([
     {
@@ -35,6 +36,11 @@ export  const router = createBrowserRouter([
         {
             path: "/membership",
             element: <Membership></Membership>
+        },
+        {
+          path: "/posts/:id",
+          element: <PostDetails></PostDetails>,
+          loader: ({params}) => fetch(`http://localhost:5000/posts/${params.id}`)
         }
       ]
     },

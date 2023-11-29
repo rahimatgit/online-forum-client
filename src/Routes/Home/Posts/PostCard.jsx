@@ -15,25 +15,34 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { ExpandMore } from '@mui/icons-material';
+import useAxiosPublic from '../../../Hooks/useAxiosPublic';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 
 export default function PropsCard({post}) {
+
+    const navigate = useNavigate();
   const [expanded, setExpanded] = React.useState(false);
-  const {author_image, post_title, post_time, tag, up_vote, down_vote, comments, author_name } = post;
+  const {author_image, post_title, post_time, tag, up_vote, down_vote, comments, author_name, _id } = post;
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
+  const handleCard = () => {
+        // console.log(_id)
+        navigate(`/posts/${_id}`);
+  }
+
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card onClick={handleCard} sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
           <Avatar >
-            <img src={author_image} style={{imageResolution:"unset"}} alt="" />
+            <img src={author_image}  alt="" />
           </Avatar>
         }
         action={
