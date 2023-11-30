@@ -8,6 +8,7 @@ import { Button, TextField, Typography } from '@mui/material';
 import GoogleIcon from '@mui/icons-material/Google';
 
 
+
 const Register = () => {
 
     const axiosPublic = useAxiosPublic();
@@ -34,7 +35,7 @@ const Register = () => {
                                     console.log('user inserted successfully')
                                     reset();
                                     Swal.fire({
-                                        position: 'top-end',
+                                        position: 'center-right',
                                         icon: 'success',
                                         title: 'User created successfully.',
                                         showConfirmButton: false,
