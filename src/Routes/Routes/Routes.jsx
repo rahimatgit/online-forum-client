@@ -10,6 +10,7 @@ import Error from "../Error/Error";
 import Login from "../JoinUs/Login/Login";
 import Register from "../JoinUs/Register/Register";
 import PostDetails from "../Home/Posts/PostDetails";
+import Dashboaed from "../../Layout/Dashboard/Dashboaed";
 
 export  const router = createBrowserRouter([
     {
@@ -44,4 +45,11 @@ export  const router = createBrowserRouter([
         }
       ]
     },
+    {
+      path: "/dashboard",
+      element: <Dashboaed></Dashboaed>,
+      children: [
+        
+      ]
+    }
   ]);

@@ -16,7 +16,7 @@ import { AuthContext } from '../../../Provider/AuthProvider';
 import { useContext } from "react";
 import Profile from '../../../Components/Profile/Profile';
 // import Profile from '../../../Components/Profile/Profile';
-
+import NotificationAddOutlinedIcon from '@mui/icons-material/NotificationAddOutlined';
 
 
 
@@ -88,11 +88,17 @@ export default function Navbar(props) {
                             <NavLink to="/membership">
                                 <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Membership</Button>
                             </NavLink>
-                            <NavLink to="/joinUs">
-                                <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
-                            </NavLink>
+                            
                         </Box>
-                        {user ? <Profile></Profile> : ""}
+                        <NotificationAddOutlinedIcon fontSize='medium' sx={{color:"green"}}></NotificationAddOutlinedIcon>
+                        {user ? 
+                        <div>
+                            <Profile photo={user.photoURL} name={user.displayName}></Profile>
+                        </div> 
+                        : 
+                        <NavLink to="/joinUs">
+                                <Button variant='outlined' sx={{ fontSize: "18px", fontWeight: "600", color: "green", marginRight: "5px", borderRadius:"30px", borderTop:"none", borderLeft:"none" }}>Join Us</Button>
+                            </NavLink>}
                     </Toolbar>
                         
                 </Container>
