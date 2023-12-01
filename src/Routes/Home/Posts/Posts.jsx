@@ -7,6 +7,7 @@ import axios from "axios";
 import { AuthContext } from "../../../Provider/AuthProvider";
 
 
+
 const Posts = () => {
     // const {count} = useLoaderData();
     // console.log(count);
@@ -71,23 +72,22 @@ const Posts = () => {
             </Grid>
             </Container>
             {/* pagination */}
-            <div>
-                <div>
-                    <Button onClick={handlePrevPage}>Previous</Button>
+            <div style={{display:"flex", justifyContent:"center"}}>
+                <div style={{marginTop:"30px", marginBottom: "30px"}}>
+                    <Button style={{color:"green", fontWeight:"700"}} onClick={handlePrevPage}>Previous</Button>
                     {
                         pages.map(page => <Button 
                         key={page}
                         onClick={() => setCurrentPage(page)}
+                        sx={{color:"green", fontWeight:"500"}}
                         >
-                            {page}
+                            {page + 1}
                         </Button>)
                     }
-                    <Button onClick={handleNextPage}>Next</Button>
-                </div>
-                <div>
-
+                    <Button style={{color:"green", fontWeight:"700"}} onClick={handleNextPage}>Next</Button>
                 </div>
             </div>
+  
         </div>
     );
 };
