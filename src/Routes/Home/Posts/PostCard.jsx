@@ -41,9 +41,7 @@ export default function PropsCard({post}) {
     <Card onClick={handleCard} sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar >
-            <img src={author_image}  alt="" />
-          </Avatar>
+          <Avatar src={author_image}> </Avatar>
         }
         action={
           <IconButton aria-label="settings">

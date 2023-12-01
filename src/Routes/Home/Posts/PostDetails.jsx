@@ -1,4 +1,4 @@
-import { Avatar } from "@mui/material";
+import { Avatar, Divider } from "@mui/material";
 import { useLoaderData } from "react-router-dom";
 import { AiFillLike } from "react-icons/ai";
 import { AiFillDislike } from "react-icons/ai";
@@ -31,6 +31,7 @@ const PostDetails = () => {
                 <div><AiFillDislike style={{color:"red"}}></AiFillDislike> {down_vote}</div>    
                 </div>
             </div>
+            
         </div>
     );
 };
