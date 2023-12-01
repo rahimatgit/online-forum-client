@@ -27,7 +27,7 @@ export default function Profile({photo, name}) {
   const handleLogOut = () => {
     logOut()
     .then(res => {
-      console.log(res.data)
+      
     })
   }
 
