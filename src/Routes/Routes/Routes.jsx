@@ -19,6 +19,7 @@ import AdminProfile from '../../Components/AdminProfile';
 import ManageUsers from '../../Components/ManageUsers';
 import Activities from '../../Components/Activities';
 import Announcements from '../../Components/Announcements';
+import Posts from "../Home/Posts/Posts";
 
 export  const router = createBrowserRouter([
     {
@@ -47,9 +48,14 @@ export  const router = createBrowserRouter([
             element: <Membership></Membership>
         },
         {
+            path: "/posts",
+            element: <Posts></Posts>,
+            loader: () => fetch('https://assignment-12-online-forum-server.vercel.app/postCount')
+        },
+        {
           path: "/posts/:id",
           element: <PostDetails></PostDetails>,
-          loader: ({params}) => fetch(`http://localhost:5000/posts/${params.id}`)
+          loader: ({params}) => fetch(`https://assignment-12-online-forum-server.vercel.app/posts/${params.id}`)
         }
       ]
     },

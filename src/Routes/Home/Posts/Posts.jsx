@@ -1,18 +1,50 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Button, Container, Grid, Typography } from "@mui/material";
 import useAxiosPublic from "../../../Hooks/useAxiosPublic";
 import { useQuery } from "@tanstack/react-query";
 import PostCard from './PostCard';
+import { useContext, useEffect, useState } from "react";
+import axios from "axios";
+import { AuthContext } from "../../../Provider/AuthProvider";
+
 
 const Posts = () => {
-
+    // const {count} = useLoaderData();
+    // console.log(count);
+    const [posts, setPosts] = useState([]);
     const axiosPublic = useAxiosPublic();
-    const { data: posts = [] } = useQuery({
-        queryKey: ['posts'],
-        queryFn: async () => {
-            const res = await axiosPublic.get("/posts");
-            return res.data;
+    const [itemsPerPage, setItemsPerPage] = useState(5);
+    const [currentPage, setCurrentPage] = useState(0);
+    const numberOfPages = Math.ceil(25 / itemsPerPage);
+    const pages = [...Array(numberOfPages).keys()];
+
+    // const { data: posts = [] } = useQuery({
+    //     queryKey: ['posts'],
+    //     queryFn: async () => {
+    //         const res = await axiosPublic.get(`/posts?page=${currentPage}&size=${itemsPerPage}`);
+    //         return res.data;
+    //     }
+    // })
+
+    useEffect( () => {
+        axiosPublic.get(`/posts?page=${currentPage}&size=${itemsPerPage}`)
+        .then(res => {
+            setPosts(res.data);
+        })
+    } , [currentPage, itemsPerPage, axiosPublic])
+
+
+    const handlePrevPage = () => {
+        if (currentPage > 0) {
+            setCurrentPage(currentPage - 1);
         }
-    })
+    }
+
+    const handleNextPage = () => {
+        if (currentPage < pages.length - 1) {
+            setCurrentPage(currentPage + 1);
+        }
+    }
+
 
     return (
         <div style={{ marginTop: "50px" }}>
@@ -38,6 +70,24 @@ const Posts = () => {
                 }
             </Grid>
             </Container>
+            {/* pagination */}
+            <div>
+                <div>
+                    <Button onClick={handlePrevPage}>Previous</Button>
+                    {
+                        pages.map(page => <Button 
+                        key={page}
+                        onClick={() => setCurrentPage(page)}
+                        >
+                            {page}
+                        </Button>)
+                    }
+                    <Button onClick={handleNextPage}>Next</Button>
+                </div>
+                <div>
+
+                </div>
+            </div>
         </div>
     );
 };
